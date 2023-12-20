@@ -8,7 +8,7 @@ function getDayCount(date) {
 // 指定のごみ収集曜日の前日の通知のためにトリガーする関数
 function notifyInTheMorning() {
     // LINE Messaging APIの利用のための下準備
-    var ACCESS_TOKEN = 'ipapptbrGbWEmnR1lvfU1XV0DWSktzXPR+dUMtI7Wj1j3Ea/0L/6CKmAl5bKtu3/N4m8M3lWfyDmCyGrfiJd8NSVnOjyXFwVvljS3IKb9ARVbtmrnAtrF3y8rVKVYMNl4itOsaqX8wUukyqadYzn/AdB04t89/1O/w1cDnyilFU=';
+    var ACCESS_TOKEN = '';
 
     var url = 'https://api.line.me/v2/bot/message/push';
     // メッセージ本文を格納する変数
