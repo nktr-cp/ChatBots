@@ -69,7 +69,7 @@ function notifyInTheMorning() {
         },
         'method': 'POST',
         'payload': JSON.stringify({
-            'to': 'Ua78b8082c04492c129ce4c25b07a58be',
+            'to': '',
             'messages': [{
                 'type': 'text',
                 'text': body,
